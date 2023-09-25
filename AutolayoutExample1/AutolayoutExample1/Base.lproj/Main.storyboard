@@ -34,8 +34,9 @@
                             <constraint firstItem="i5C-9f-XAl" firstAttribute="top" secondItem="Oxi-rj-E7t" secondAttribute="top" id="Rn6-mP-yP3"/>
                             <constraint firstItem="Oxi-rj-E7t" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Ul3-lm-egZ"/>
                             <constraint firstItem="i5C-9f-XAl" firstAttribute="bottom" secondItem="Oxi-rj-E7t" secondAttribute="bottom" id="c1y-FX-0ty"/>
+                            <constraint firstItem="i5C-9f-XAl" firstAttribute="leading" relation="lessThanOrEqual" secondItem="Oxi-rj-E7t" secondAttribute="trailing" constant="100" id="pED-KS-wXf"/>
                             <constraint firstItem="i5C-9f-XAl" firstAttribute="width" secondItem="Oxi-rj-E7t" secondAttribute="width" id="qmx-3Z-zha"/>
-                            <constraint firstItem="i5C-9f-XAl" firstAttribute="leading" secondItem="Oxi-rj-E7t" secondAttribute="trailing" constant="20" id="sxe-8y-i0s"/>
+                            <constraint firstItem="i5C-9f-XAl" firstAttribute="leading" secondItem="Oxi-rj-E7t" secondAttribute="trailing" priority="750" constant="20" id="sxe-8y-i0s"/>
                         </constraints>
                     </view>
                 </viewController>
