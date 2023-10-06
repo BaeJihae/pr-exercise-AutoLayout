@@ -35,9 +35,9 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Oxi-rj-E7t" secondAttribute="bottom" constant="20" id="G8z-Bb-eNq"/>
                             <constraint firstItem="Oxi-rj-E7t" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="LMA-G0-Zwc"/>
                             <constraint firstItem="i5C-9f-XAl" firstAttribute="top" secondItem="Oxi-rj-E7t" secondAttribute="top" id="Rn6-mP-yP3"/>
-                            <constraint firstItem="Oxi-rj-E7t" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="Ul3-lm-egZ"/>
+                            <constraint firstItem="Oxi-rj-E7t" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Ul3-lm-egZ"/>
                             <constraint firstItem="i5C-9f-XAl" firstAttribute="bottom" secondItem="Oxi-rj-E7t" secondAttribute="bottom" id="c1y-FX-0ty"/>
-                            <constraint firstItem="i5C-9f-XAl" firstAttribute="width" relation="greaterThanOrEqual" secondItem="Oxi-rj-E7t" secondAttribute="width" multiplier="2" priority="750" id="qmx-3Z-zha"/>
+                            <constraint firstItem="i5C-9f-XAl" firstAttribute="width" secondItem="Oxi-rj-E7t" secondAttribute="width" multiplier="2" priority="750" id="qmx-3Z-zha"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="i5C-9f-XAl" secondAttribute="trailing" constant="20" id="yJF-LI-tbT"/>
                         </constraints>
                     </view>
@@ -187,11 +187,11 @@
                                     <constraint firstAttribute="width" constant="136" id="dsd-21-9ZI"/>
                                 </constraints>
                             </slider>
-                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HpB-ak-wBc" customClass="MyView" customModule="AutolayoutExample1" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HpB-ak-wBc" customClass="MyView" customModule="AutolayoutExample1" customModuleProvider="target">
                                 <rect key="frame" x="323" y="79" width="50" height="50"/>
                                 <color key="backgroundColor" systemColor="tintColor"/>
                             </view>
-                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WxE-Cv-WyV" customClass="MyView" customModule="AutolayoutExample1" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WxE-Cv-WyV" customClass="MyView" customModule="AutolayoutExample1" customModuleProvider="target">
                                 <rect key="frame" x="323" y="149" width="50" height="50"/>
                                 <color key="backgroundColor" systemColor="systemYellowColor"/>
                             </view>
@@ -220,6 +220,14 @@
             <point key="canvasLocation" x="909.16030534351137" y="-27.464788732394368"/>
         </scene>
     </scenes>
+    <designables>
+        <designable name="HpB-ak-wBc">
+            <size key="intrinsicContentSize" width="50" height="50"/>
+        </designable>
+        <designable name="WxE-Cv-WyV">
+            <size key="intrinsicContentSize" width="50" height="50"/>
+        </designable>
+    </designables>
     <resources>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
